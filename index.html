@@ -12,9 +12,8 @@
         }
 
         body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #f0f0f0;
-            color: #333;
+            font-family: 'Sans', Serif , monospace;
+            color: tomato;
             margin: 0;
             padding: 10px;
             border-top: 10px solid #008080;
@@ -33,16 +32,21 @@
         }
 
         textarea {
-            height: 150px;
+            height: 300px;
+            width:80%;
+            background-color:black;
+            color: white;
             resize: vertical;
+            border-radius: 20px;
         }
 
         button {
-            background-color: #008080;
-            color: #fff;
+            background-color: limegreen;
+            color: white;
             padding: 5px 10px;
             cursor: pointer;
             display: inline-block;
+            border-radius:10px;
         }
 
         button:hover {
@@ -64,11 +68,12 @@
             textarea,
             button,
             #output {
-                width: calc(100% - 10px);
+                width: 80%;
+                height:200px;
             }
 
             textarea {
-                height: 150px;
+                height: 300px;
             }
         }
 
@@ -162,17 +167,17 @@ bol toh mama("done");
 
 
             const translations = {
-                'mama aida hoilo': 'let', // Variable declaration
-                'bol toh mama': 'console.log', // Print to console
-                'kisuina mama': 'null', // Null value
-                'haw mama': 'true', // Boolean true value
-                'nah mama': 'false', // Boolean false value
-                'jodi mama': 'if', // If condition
-                'nah hoile mama': 'else if', // Else if condition
-                'akdom e nah hoile': 'else', // Else condition
-                'jotokhon porjonto mama': 'while', // While loop
-                'thamis mama': 'break', // Break statement
-                'tarpor er tah dekh': 'continue' // Continue statement
+                'bondhu aida dhor': 'let', // Variable declaration
+                'dekha toh bondhu': 'console.log', // Print to console
+                'kisuina bondhu': 'null', // Null value
+                'ha bondhu': 'true', // Boolean true value
+                'nah bondhu': 'false', // Boolean false value
+                'jodi bondhu': 'if', // If condition
+                'jodi nahoy bondhu': 'else if', // Else if condition
+                'nahole bondhu': 'else', // Else condition
+                'jotokhon porjonto bondhu': 'while', // While loop
+                'thamo bondhu': 'break', // Break statement
+                'chalao bondhu ': 'continue' // Continue statement
                 // ... other keywords as needed (Mama tui jodi aida aro kisu add korte chas mama, akta PR open kor mama!)
             };
 
