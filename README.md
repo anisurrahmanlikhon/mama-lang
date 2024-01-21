@@ -1,6 +1,6 @@
 # Mama Lang 🚀
 
-[Mama Lang Playground](https://anisurrahmanlikhon.github.io/bondhu-lang/)
+[Mama Lang Playground](https://anisurrahmanlikhon.github.io/mama-lang/)
 
 [Mama Npm Package](https://www.npmjs.com/package/mama-lang)
 
@@ -15,7 +15,7 @@ Feel free to open up PR(s) and contribute! 😄
 
 ## Playground 🚀🎮
 
-Check out the [Mama Lang Playground](https://anisurrahmanlikhon.github.io/bondhu-lang/) to write and run your `.mama` code in a fun and interactive environment! Whether you're taking your first steps into programming or just want to have a laugh with friends, the playground makes it easy to experiment with Mama Lang right in your browser. No installation required, just code and go! 😄👨‍💻
+Check out the [Mama Lang Playground](https://anisurrahmanlikhon.github.io/mama-lang/) to write and run your `.mama` code in a fun and interactive environment! Whether you're taking your first steps into programming or just want to have a laugh with friends, the playground makes it easy to experiment with Mama Lang right in your browser. No installation required, just code and go! 😄👨‍💻
 
 ## Installation 💻
 
