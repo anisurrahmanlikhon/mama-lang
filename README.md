@@ -117,7 +117,7 @@ Statements inside `jotokhon porjonto mama` blocks are executed as long as a spec
   }
   bol toh mama("done");
 ```
-## Function
+## Function 📦
 `de toh mama` is the return of function. When we need return, we use `de toh mama`.
 
 ```python
