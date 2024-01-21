@@ -12,7 +12,7 @@
         }
 
         body {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Sans', Serif, monospace;
             background-color: #f0f0f0;
             color: #333;
             margin: 0;
@@ -28,21 +28,25 @@
             border: 2px solid #000;
             margin: 10px 0;
             padding: 10px;
-            width: calc(100% - 20px);
+            width:100%;
             display: block;
         }
 
         textarea {
-            height: 150px;
+            height: 300px;
             resize: vertical;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
         }
 
         button {
-            background-color: #008080;
-            color: #fff;
+            background-color: limegreen;
+            color: white;
             padding: 5px 10px;
             cursor: pointer;
             display: inline-block;
+            border-radius: 10px;
         }
 
         button:hover {
@@ -50,10 +54,12 @@
         }
 
         #output {
-            background-color: #fff;
+            background-color: black;
             padding: 10px;
             white-space: pre-wrap;
             overflow-x: auto;
+            color: white;
+            height: 200px;
         }
 
         @media screen and (max-width: 600px) {
@@ -62,13 +68,12 @@
             }
 
             textarea,
-            button,
             #output {
-                width: calc(100% - 10px);
+                width:100%;
             }
 
             textarea {
-                height: 150px;
+                height: 300px;
             }
         }
 
