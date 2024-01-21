@@ -1,6 +1,6 @@
 # Mama Lang 🚀
 
-[Mama Lang Playground](https://ahnafyy.github.io/mama-lang/)
+[Mama Lang Playground](https://anisurrahmanlikhon.github.io/bondhu-lang/)
 [Mama Npm Package](https://www.npmjs.com/package/mama-lang)
 
 I grew up in Dhaka, Bangladesh 🇧🇩, where "Mama" 🗣️, which literally translates to your mom's brother, is often used by friends as a form of endearment. The closest comparison I can find is how some people would use the word "homie" 🤝 in the US. I spent countless days and nights ☕🌙, sipping tea in the stands of Abahani Field in Dhanmondi 4 or at Paribagh with friends when I was in high school 🏫👥. During these gatherings, if we had kept a tally, I believe collectively we must have uttered the word `mama` well over a hundred times.
@@ -14,7 +14,7 @@ Feel free to open up PR(s) and contribute! 😄
 
 ## Playground 🚀🎮
 
-Check out the [Mama Lang Playground](https://ahnafyy.github.io/mama-lang/) to write and run your `.mama` code in a fun and interactive environment! Whether you're taking your first steps into programming or just want to have a laugh with friends, the playground makes it easy to experiment with Mama Lang right in your browser. No installation required, just code and go! 😄👨‍💻
+Check out the [Mama Lang Playground](https://anisurrahmanlikhon.github.io/bondhu-lang/) to write and run your `.mama` code in a fun and interactive environment! Whether you're taking your first steps into programming or just want to have a laugh with friends, the playground makes it easy to experiment with Mama Lang right in your browser. No installation required, just code and go! 😄👨‍💻
 
 ## Installation 💻
 
@@ -86,6 +86,7 @@ bol toh mama("Shob miliya koto ghonta kamla khatesi amra hoilo = " + shobMilayaK
 mama-lang supports the if-else-if ladder construct, `jodi mama` block will execute if the condition is `haw mama`, otherwise one of the subsequently added `nah hoile mama` blocks will execute if their respective condition is `haw mama`, and the `akdom e nah hoile` block will eventually execute if all of the above conditions are `nah mama`.
 
 ```
+mama aida hoilo temperature = 25;
 jodi mama (temperature > 30) {
   bol toh mama ("Gorom lagtese mama, AC chalao mama!");
 } nah hoile mama (temperature < 20) {
