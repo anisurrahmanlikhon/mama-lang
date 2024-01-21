@@ -114,7 +114,8 @@ Statements inside `jotokhon porjonto mama` blocks are executed as long as a spec
   bol toh mama("done");
 ```
 ## Function 📦
-`de toh mama` is the return of function. When we need return, we use `de toh mama`.
+
+`mama kam da hoilo` is a function and `de toh mama` is the return of function. When we need return, we use `de toh mama`.
 
 ```python
 mama kam da hoilo multiply(x, y) {
