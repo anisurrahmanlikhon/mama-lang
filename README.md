@@ -1,6 +1,7 @@
 # Mama Lang 🚀
 
 [Mama Lang Playground](https://anisurrahmanlikhon.github.io/bondhu-lang/)
+
 [Mama Npm Package](https://www.npmjs.com/package/mama-lang)
 
 I grew up in Dhaka, Bangladesh 🇧🇩, where "Mama" 🗣️, which literally translates to your mom's brother, is often used by friends as a form of endearment. The closest comparison I can find is how some people would use the word "homie" 🤝 in the US. I spent countless days and nights ☕🌙, sipping tea in the stands of Abahani Field in Dhanmondi 4 or at Paribagh with friends when I was in high school 🏫👥. During these gatherings, if we had kept a tally, I believe collectively we must have uttered the word `mama` well over a hundred times.
@@ -25,7 +26,7 @@ npm install -g mama-lang
 ## Usage 📝
 Create a new file (boltesi.mama)
 
-```
+```python
 bol toh mama ("kire mama!");
 ```
 
@@ -46,7 +47,7 @@ kire mama!
 ### Variables 📊
 Variables can be declared using `mama aida hoilo`;
 
-```
+```python
 mama aida hoilo day = "Sunday";
 mama aida hoilo temperature = 25;
 mama aida hoilo isSunny = haw mama;
@@ -56,7 +57,7 @@ mama aida hoilo counter = 0;
 ### Types 🔠
 Numbers and strings are like other languages. Null values can be denoted using `kisuina mama`. `haw mama` and `nah mama` are the boolean values.
 
-```
+```python
  mama aida hoilo a = 10;
  mama aida hoilo b = 10 + (15*20);
  mama aida hoilo c = "duita";
@@ -70,11 +71,11 @@ Numbers and strings are like other languages. Null values can be denoted using `
 
 Use `bol toh mama` to print anything to the console.
 
-```
+```python
 bol toh mama ("Hello World");
 ```
 
-```
+```python
 mama aida hoilo manushJon = 5;
 mama aida hoilo koiGhontaKoraLagbe = 8;
 mama aida hoilo shobMilayaKotoKhonLagbe = manushJon * koiGhontaKoraLagbe;
@@ -85,7 +86,7 @@ bol toh mama("Shob miliya koto ghonta kamla khatesi amra hoilo = " + shobMilayaK
 
 mama-lang supports the if-else-if ladder construct, `jodi mama` block will execute if the condition is `haw mama`, otherwise one of the subsequently added `nah hoile mama` blocks will execute if their respective condition is `haw mama`, and the `akdom e nah hoile` block will eventually execute if all of the above conditions are `nah mama`.
 
-```
+```python
 mama aida hoilo temperature = 25;
 jodi mama (temperature > 30) {
   bol toh mama ("Gorom lagtese mama, AC chalao mama!");
@@ -101,7 +102,7 @@ jodi mama (temperature > 30) {
 Statements inside `jotokhon porjonto mama` blocks are executed as long as a specified condition evaluates to `haw mama`. If the condition becomes `nah mama`, the statement within the loop stops executing and control passes to the statement following the loop. Use `thamis mama` to break the loop and `tarpor er tah dekh` mama to continue within the loop.
 
 
-```
+```python
   mama aida hoilo a = 0;
   jotokhon porjonto mama (a < 10) {
    a += 1;
