@@ -55,4 +55,12 @@
                 output.textContent += message + '\n';
             };
         }
+
+       function clearCode() {
+            // Clear the text in the textarea
+            document.getElementById('code').value = '';
+
+            // Clear the output div
+            document.getElementById('output').innerHTML = '';
+        }
   
