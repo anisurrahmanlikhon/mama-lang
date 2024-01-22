@@ -5,6 +5,7 @@
             output.textContent = '';
             // Get the code from the textarea
             var code = document.getElementById('code').value;
+            document.getElementById("output").placeholder = "mama ekhane output dekha toh";
 
 
             const translations = {
