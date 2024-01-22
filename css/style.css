@@ -33,6 +33,14 @@
             color: white;
             font-size: 20px;
         }
+        button {
+               border-radius: 10px;
+               background-color: limegreen;
+               color: white;
+        }
+          button1 {
+               border-radius: 10px;
+        }
 
         
 
