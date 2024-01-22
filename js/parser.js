@@ -64,4 +64,25 @@
             document.getElementById('output').innerHTML = '';
         }
 
+
+
+function downloadCode() {
+            var codeTextarea = document.getElementById('code');
+            var codeContent = codeTextarea.value;
+
+            // Create a Blob containing the code content
+            var blob = new Blob([codeContent], { type: 'text/plain' });
+
+            // Create a download link
+            var link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = 'mama.txt';
+
+            // Append the link to the document and trigger the click event
+            document.body.appendChild(link);
+            link.click();
+
+            // Remove the link from the document
+            document.body.removeChild(link);
+        }
      
