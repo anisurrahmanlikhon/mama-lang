@@ -64,7 +64,7 @@
             document.getElementById('output').innerHTML = '';
         }
 
-     function copyCode() {
+     function copyToClipboard() {
             var codeTextarea = document.getElementById('code');
 
             // Select the text in the textarea
