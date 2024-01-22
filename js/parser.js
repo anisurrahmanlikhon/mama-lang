@@ -63,4 +63,20 @@
             // Clear the output div
             document.getElementById('output').innerHTML = '';
         }
-  
+
+     function copyCode() {
+            var codeTextarea = document.getElementById('code');
+
+            // Select the text in the textarea
+            codeTextarea.select();
+            codeTextarea.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the selected text to the clipboard
+            document.execCommand('copy');
+
+            // Deselect the text
+            codeTextarea.setSelectionRange(0, 0);
+
+            // Optional: Provide feedback to the user (you can customize this)
+            alert('Code copied to clipboard!');
+        }
