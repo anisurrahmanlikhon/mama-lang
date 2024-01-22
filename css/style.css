@@ -23,6 +23,8 @@
             padding: 10px;
             width:100%;
             display: block;
+            overflow-x: auto;
+            overflow-y: auto;
         }
 
         textarea {
@@ -32,6 +34,8 @@
             background-color: black;
             color: white;
             font-size: 20px;
+            overflow-x: auto;
+            overflow-y: auto;
         }
         button {
                border-radius: 5px;
