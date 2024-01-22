@@ -34,16 +34,7 @@
             font-size: 20px;
         }
 
-        button {
-            background-color: limegreen;
-            height: 40px;
-            width: 80px;
-            color: white;
-            padding: 5px 10px;
-            cursor: pointer;
-            display: inline-block;
-            border-radius: 10px;
-        }
+        
 
         #output {
             background-color: black;
