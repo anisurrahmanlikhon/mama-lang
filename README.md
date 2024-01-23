@@ -61,19 +61,12 @@ Statements inside `jotokhon porjonto mama` blocks are executed as long as a spec
 
 
 ```python
-  mama aida hoilo a = 0;
+  mama aida hoilo a = 0;
   jotokhon porjonto mama (a < 10) {
    a += 1;
-   jodi mama (a == 5) {
-    bol toh mama("loop er bhitor theke boltesi mama ", a);
-    tarpor er tah dekh mama;
-   }
-   jodi mama (a == 6) {
-    thamis mama;
-   }
    bol toh mama(a);
   }
-  bol toh mama("done");
+  
 ```
 ## Function 📦
 
