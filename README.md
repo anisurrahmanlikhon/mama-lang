@@ -57,7 +57,7 @@ jodi mama (temperature > 30) {
 
 ## Loops 🔁
 
-Statements inside `jotokhon porjonto mama` blocks are executed as long as a specified condition evaluates to `haw mama`. If the condition becomes `nah mama`, the statement within the loop stops executing and control passes to the statement following the loop. Use `thamis mama` to break the loop and `tarpor er tah dekh` mama to continue within the loop.
+Statements inside `jotokhon porjonto mama` blocks are executed as long as a specified condition.
 
 
 ```python
