@@ -1,46 +1,8 @@
 # Mama Lang
 
-I grew up in Dhaka, Bangladesh 🇧🇩, where "Mama" 🗣️, which literally translates to your mom's brother, is often used by friends as a form of endearment. The closest comparison I can find is how some people would use the word "homie" 🤝 in the US. I spent countless days and nights ☕🌙, sipping tea in the stands of Abahani Field in Dhanmondi 4 or at Paribagh with friends when I was in high school 🏫👥. During these gatherings, if we had kept a tally, I believe collectively we must have uttered the word `mama` well over a hundred times.
-
-So when I saw this: bhai-lang https://github.com/DulLabs/bhai-lang 💡, I was inspired to write my own implementation! 
-To start with right now we just convert `.mama` files to `.js` and then run them with `node` and so anything that you could do in javascript land you can do it in mama lang.
-
-I am however playing around with the idea of making its own lexer, interpreter and parser so it can just be its own thing! 
-
-Feel free to open up PR(s) and contribute! 😄
-
-## Playground 🚀🎮
-
-Check out the [Mama Lang Playground](https://anisurrahmanlikhon.github.io/mama-lang/) to write and run your `.mama` code in a fun and interactive environment! Whether you're taking your first steps into programming or just want to have a laugh with friends, the playground makes it easy to experiment with Mama Lang right in your browser. No installation required, just code and go! 😄👨‍💻
-
-## Installation 💻
-
-```
-npm install -g mama-lang
-```
-
-## Usage 📝
-Create a new file (boltesi.mama)
-
-```python
-bol toh mama ("kire mama!");
-```
-
-## Run 🚀
-
-```
-mama boltesi.mama
-```
-
-## Output 🖨️
-
-```
-kire mama!
-```
-
 ## Documentation 📚
 
-### Variables 📊
+### Variables Declaration 📌
 Variables can be declared using `mama aida hoilo`;
 
 ```python
