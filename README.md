@@ -2,7 +2,7 @@
 
 ## Documentation 📚
 
-### Variables Declaration 📌
+### Variables Declaration 📌 
 Variables can be declared using `mama aida hoilo`;
 
 ```python
